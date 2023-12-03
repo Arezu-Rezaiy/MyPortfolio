@@ -1,0 +1,51 @@
+    
+    span{
+        color: #ff0052;
+    } 
+        *{
+            box-sizing: border-box;
+        }
+       body{
+
+        scroll-behavior: smooth;
+        position: relative;
+
+      }
+       #light {
+       background-color:rgb(226, 220, 220) ;
+       color: black;
+       }
+
+       #dark{
+       color: white;
+      background-color: rgb(27, 26, 26); 
+       }
+
+       .switch{
+        display: flex;
+        width: 100vw;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 2;
+        left:auto ;
+        right: auto;
+       }
+       .select-language{
+         display: flex;
+        width: 100vw;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 2;
+        left:auto ;
+        right: auto;
+        bottom: 240px;
+       }
+       
+      
+
+
+
